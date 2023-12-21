@@ -1,0 +1,40 @@
+.list-item-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100px;
+  width: 300px;
+  background-color: transparent;
+  border: 1px solid #b5b7c4;
+  border-radius: 15px;
+  margin: 15px;
+}
+
+.item-row-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.item-heading {
+  color: #171f46;
+  height: 30px;
+  margin: 15px;
+  font-weight: bold;
+}
+
+.item-btn {
+  background-color: transparent;
+  border: 0px solid;
+  cursor: pointer;
+}
+
+.star-img {
+  height: 30px;
+  width: 30px;
+}
+
+.date-item {
+  color: #b5b7c4;
+  font-family: 'Roboto';
+  margin: 15px;
+}

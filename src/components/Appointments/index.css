@@ -1,0 +1,132 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 120vh;
+  background-image: linear-gradient(to bottom, #fbc7d4, #9796f0);
+  font-family: 'Roboto';
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-heading {
+  color: #171f46;
+  font-family: 50px;
+  font-family: 'Roboto';
+}
+.label {
+  color: #9897f0;
+  font-size: 13px;
+}
+
+.title-input {
+  height: 50px;
+  width: 320px;
+  font-size: 16px;
+  margin-top: 12px;
+  border: 1px solid #b5b7c4;
+  border-radius: 8px;
+  padding-left: 10px;
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+.button {
+  background-color: #8b5cf6;
+  height: 35px;
+  width: 75px;
+  border: 0px solid;
+  text-align: center;
+  cursor: pointer;
+  color: white;
+  font-weight: 500px;
+  border-radius: 8px;
+}
+
+.app-image {
+  height: 400px;
+  width: 550px;
+}
+
+@media Screen and (max-width: 768px) {
+  .app-image {
+    display: none;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .line-cont {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    /* height: 300px;
+    width: 400px; */
+    border-radius: 15px;
+    padding: 30px;
+  }
+}
+
+.line-break {
+  color: #9897f0;
+  border: 1px solid;
+}
+
+.line-cont {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 1000px;
+  border-radius: 15px;
+  padding: 30px;
+}
+
+.un-order-list-container {
+  display: flex;
+  flex-wrap: wrap;
+  /* margin: 15px; */
+}
+
+.name-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+.heading-2 {
+  color: #171f46;
+  font-size: 20px;
+  font-family: 'roboto';
+}
+
+.button-2 {
+  height: 30px;
+  width: 80px;
+  border: 1px solid #9897f0;
+  background-color: transparent;
+  font-weight: 500px;
+  color: #9897f0;
+  border-radius: 9px;
+  cursor: pointer;
+}
+
+.filter-filled {
+  height: 30px;
+  width: 80px;
+  border: 1px solid #9897f0;
+  background-color: #9897f0;
+  font-weight: 500px;
+  color: white;
+  border-radius: 9px;
+  cursor: pointer;
+}
